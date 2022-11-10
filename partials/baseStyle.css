@@ -1,0 +1,56 @@
+html {
+  font-size: 125%;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.45rem;
+  font-family: var(--josefin);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.45rem;
+  font-weight: 600px;
+  font-family: var(--josefin);
+  line-height: center;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 4.99rem;
+  font-family: var(--josefin);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.06rem;
+  font-family: var(--josefin);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+button {
+  font-size: 1.12rem;
+  letter-spacing: 0.05rem;
+  line-height: 2.08rem;
+  text-transform: uppercase;
+  font-family: var(--josefin);
+}
+
+p {
+  font-family: var(--barlow);
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.4rem;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}

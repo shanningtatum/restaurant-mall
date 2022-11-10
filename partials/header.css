@@ -1,0 +1,84 @@
+/* HEADER */
+
+header {
+  background-image: url("../assets/home-header.jpg");
+  background-size: cover;
+  height: 80vh;
+  border: 2px red solid;
+}
+
+header nav ul {
+  display: flex;
+  border: 2px red solid;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.headerContainer {
+  display: flex;
+  height: 100%;
+}
+
+.blockText {
+  vertical-align: middle;
+  background-color: var(--white);
+  color: var(--pine);
+  width: max-content;
+}
+
+.serviceSection {
+  background-color: var(--pine);
+  color: var(--white);
+  position: relative;
+}
+
+.serviceSection ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.serviceSection li {
+  width: calc(100% / 2);
+}
+
+.serviceSection .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.serviceSection .serviceImg {
+  position: absolute;
+  bottom: 85vh;
+  right: 0;
+  border: 2px red solid;
+}
+.serviceSection .serviceText {
+  border: 2px orange solid;
+  padding: 200px 0 80px;
+}
+
+.blogSection img {
+  box-shadow: 20px 20px var(--sunflower-yellow);
+}
+
+.blogSection .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.topBlog,
+.bottomBlog {
+  display: flex;
+}
